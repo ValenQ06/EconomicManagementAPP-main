@@ -1,0 +1,24 @@
+﻿@model OperationTypes
+
+@{
+    ViewData["Title"] = "Delete Operation Type";
+}
+
+<div class="row text-center">
+  <h3 class="mb-3">
+    ¿Are you sure you want to delete the operation type? @Model.Description?
+  </h3>
+
+  <form asp-action="DeleteOperation">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+  </form>
+  <br /><br />
+  <br /><br />
+  <center>
+    <div class="col-sm-12 col-lg-6 px-3">
+      <img src="~/img/delete.svg" width="80%" />
+    </div>
+  </center>
+</div>

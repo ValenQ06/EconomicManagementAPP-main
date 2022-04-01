@@ -1,0 +1,22 @@
+﻿@model Users
+
+@{
+    ViewData["Title"] = "Delete User";
+}
+
+<div class="row text-center">
+<h3 class="mb-3">¿Are you sure you want to delete the User with Email? @Model.Email?</h3>
+
+<form asp-action="DeleteUser">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+</form>
+ <br /><br />
+ <br /><br />
+ <center>
+<div class="col-sm-12 col-lg-6 px-3">
+      <img src="~/img/delete.svg" width="80%"/>
+</div>
+</center>
+</div>
