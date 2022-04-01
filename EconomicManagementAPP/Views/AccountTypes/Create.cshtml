@@ -14,6 +14,11 @@
         <input type="text" asp-for="Name" class="form-control" />
         <span asp-validation-for="Name" class="text-danger"> </span>
       </div>
+      <div class="mb-3">
+        <label asp-for="UserId" class="form-label"></label>
+        <input type="text" asp-for="UserId" class="form-control" />
+        <span asp-validation-for="UserId" class="text-danger"> </span>
+      </div>
       <button type="submit" class="btn btn-primary">Create</button>
       <a class="btn btn-secondary" asp-action="Index">Cancel</a>
     </form>

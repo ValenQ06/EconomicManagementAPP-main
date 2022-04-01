@@ -8,9 +8,10 @@
     "\\EconomicManagementAPP\\Views",
     "\\EconomicManagementAPP\\Views\\Accounts",
     "\\EconomicManagementAPP\\Views\\Home",
+    "\\EconomicManagementAPP\\Views\\Shared",
     "\\EconomicManagementAPP\\wwwroot",
     "\\EconomicManagementAPP\\wwwroot\\css"
   ],
-  "SelectedNode": "\\EconomicManagementAPP\\Controllers\\AccountsController.cs",
+  "SelectedNode": "\\EconomicManagementAPP\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
